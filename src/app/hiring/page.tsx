@@ -79,7 +79,7 @@ export default function CareersPage() {
       }),
     );
 
-    router.push(hasToken ? "/hiring/hiring-form" : "/hiring/signin");
+    router.push(hasToken ? "/hiring" : "/hiring/signin");
   };
 
   if (loading) {
